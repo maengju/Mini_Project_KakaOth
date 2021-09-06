@@ -37,7 +37,7 @@ public class Inventory_ControlForm extends JFrame implements ActionListener {
 
 		setTitle("의류재고관리프로그램");
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
-		this.setSize(1000, 700);
+		this.setSize(1000, 650);
 		this.setLocationRelativeTo(null); // 창 가운데 위치
 		this.setVisible(true);
 

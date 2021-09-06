@@ -244,6 +244,7 @@ public class Sign extends JFrame implements ActionListener { // implements 가 있
 			} else {
 				te = new TestEmail(email);
 				emailreadycheck = true;
+				JOptionPane.showMessageDialog(null, "인증번호가"+email+"로 전송되었습니다. 확인해주세요");
 			}
 		} else if (e.getSource() == emailcheckButton) {
 			String emailcheck = emailcheckText.getText();
